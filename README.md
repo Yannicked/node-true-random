@@ -24,3 +24,7 @@ Example 2:
     var gen = new random.true_rand(100, 50, function(gen) {
         console.log(gen.integers(700, 15000, 25))
     });
+	
+TODO:
+*Add ecmascript 6's async/await for more synchronous workflow
+*Cleanup code

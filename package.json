@@ -1,6 +1,6 @@
 {
   "name": "true-random",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "True randomness (http://qrng.anu.edu.au/)",
   "main": "index.js",
   "files": [
