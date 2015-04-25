@@ -1,7 +1,7 @@
 {
   "name": "true-random",
   "version": "1.0.0",
-  "description": "True randomness from random.org",
+  "description": "True randomness (http://qrng.anu.edu.au/)",
   "main": "index.js",
   "files": [
 	"index.js",
@@ -20,6 +20,13 @@
   "license": "ISC",
   "dependencies": {
 	"request": ">2.0.0",
-	"traceur": ">0.0.89"
+	"traceur": ">0.0.80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yannicked/node-true-random.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yannicked/node-true-randomissues"
   }
 }

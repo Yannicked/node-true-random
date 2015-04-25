@@ -1,4 +1,7 @@
-node-true-random is a true random "generator" written in ecmascript 6. It caches random numbers from http://qrng.anu.edu.au/ for you to use. 
+node-true-random is a true random "generator" written in ecmascript 6 (automatically compiles into es5 with traceur).
+It caches random numbers from http://qrng.anu.edu.au/ for you to use. 
+
+Why ecmascript 6 you might ask? Because classes are awesome!
 
 It's very simple to use:
 
