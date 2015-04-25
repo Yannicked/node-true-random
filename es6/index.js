@@ -40,7 +40,7 @@ class queue {
 }
 
 class true_random {
-	constructor(cache_size = 100, min_cache = 50, debug = false, callback = function() {}) {
+	constructor(cache_size = 100, min_cache = 50, callback = function() {}, debug = false) {
 		this.cache_size = cache_size;
 		this.client = clients++;
 		this.queue = new queue();
@@ -88,7 +88,7 @@ class true_random {
 		this._integers(function(ints) {
 			that.cache = that.cache.concat(ints.map(function(n) {return parseInt(n)}));
 			that._debug('Done cacheing');
-			callback();
+			callback(that);
 		}, this.cache_size)
 	}
 	_integer(callback) {
