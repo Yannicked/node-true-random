@@ -1,0 +1,25 @@
+{
+  "name": "true-random",
+  "version": "1.0.0",
+  "description": "True randomness from random.org",
+  "main": "index.js",
+  "files": [
+	"index.js",
+	"es6"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random",
+    "sequence",
+    "integer",
+    "string"
+  ],
+  "author": "Yannick de Jong",
+  "license": "ISC",
+  "dependencies": {
+	"request": ">2.0.0",
+	"traceur": ">0.0.89"
+  }
+}
