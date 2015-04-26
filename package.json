@@ -1,6 +1,6 @@
 {
   "name": "true-random",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "description": "True randomness (http://qrng.anu.edu.au/)",
   "main": "index.js",
   "files": [
@@ -30,6 +30,6 @@
     "url": "https://github.com/Yannicked/node-true-random.git"
   },
   "bugs": {
-    "url": "https://github.com/Yannicked/node-true-randomissues"
+    "url": "https://github.com/Yannicked/node-true-random/issues"
   }
 }
