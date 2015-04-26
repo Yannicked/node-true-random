@@ -26,5 +26,4 @@ Example 2:
     });
 	
 TODO:
-*Add ecmascript 6's async/await for more synchronous workflow
-*Cleanup code
+* Cleanup code
