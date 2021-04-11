@@ -4,14 +4,16 @@
   "description": "True randomness (http://qrng.anu.edu.au/)",
   "main": "index.js",
   "files": [
-	"index.js",
-	"es6/index.js",
-	"test/test_random.js",
-	"README.md",
-	"LICENSE"
+    "index.js",
+    "es6/index.js",
+    "test/test_random.js",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
-    "test": "node ./test/test_random.js"
+    "test": "node ./test/test_random.js",
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix ."
   },
   "keywords": [
     "random",
@@ -22,8 +24,8 @@
   "author": "Yannick de Jong",
   "license": "ISC",
   "dependencies": {
-	"request": ">2.0.0",
-	"traceur": ">0.0.80"
+    "request": ">2.0.0",
+    "traceur": ">0.0.80"
   },
   "repository": {
     "type": "git",
@@ -31,5 +33,11 @@
   },
   "bugs": {
     "url": "https://github.com/Yannicked/node-true-random/issues"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "pngjs": "^6.0.0"
   }
 }
