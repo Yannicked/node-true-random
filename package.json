@@ -1,6 +1,6 @@
 {
   "name": "true-random",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "True randomness (http://qrng.anu.edu.au/)",
   "main": "index.js",
   "files": [
@@ -21,12 +21,19 @@
     "integer",
     "string"
   ],
-  "author": "Yannick de Jong",
+  "author": [
+    {
+      "name": "Yannick de Jong"
+    },
+    {
+      "name": "Marshall Asch",
+      "email": "maasch@rogers.com",
+      "url": "https://marshallasch.ca/"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.6.1",
-    "request": ">2.0.0",
-    "traceur": ">0.0.80"
+    "node-fetch": "^2.6.1"
   },
   "repository": {
     "type": "git",
