@@ -24,6 +24,7 @@
   "author": "Yannick de Jong",
   "license": "ISC",
   "dependencies": {
+    "node-fetch": "^2.6.1",
     "request": ">2.0.0",
     "traceur": ">0.0.80"
   },
