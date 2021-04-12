@@ -68,5 +68,5 @@ class true_random {
 }
 
 module.exports = {
-    rand: true_random,
+    Random: true_random,
 };
